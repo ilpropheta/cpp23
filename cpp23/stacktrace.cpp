@@ -30,5 +30,3 @@ static void run()
 
 	call_somewhere();
 }
-
-static const auto _ = (run(), true);

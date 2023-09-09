@@ -83,3 +83,4 @@ static void run()
 	std::cout << "\n";
 }
 
+static const auto _ = (run(), true);
