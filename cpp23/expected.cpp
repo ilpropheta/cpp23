@@ -6,6 +6,7 @@
 using namespace std::chrono;
 
 // simple domain class representing coupon information
+// BTW usually view-like classes are used for this kind of functional transformations in order to avoid copying data
 struct coupon_info
 {
 	std::string id;
